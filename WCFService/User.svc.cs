@@ -13,7 +13,7 @@ namespace WCFService
     {
         public String ShowName(String name)
         {
-            return String.Format("这是WCF返回值，你输入的是：{0}", name);
+            return String.Format("这是WCF服务应用程序返回的值：{0}", name);
         }
     }
 }
